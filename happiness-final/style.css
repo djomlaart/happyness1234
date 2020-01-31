@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.playfair {
+    font-family: "Playfair Display", Georgia, sans-serif;
+}
+
+a {
+	color: black;
+}
+
+.logo {
+    min-width: 150px;
+}
+
+
+.site-header {
+  height:  10vh;
+}
+
+.grid__cell {
+    height: 30vh;
+}
+
+@media screen and (min-width: 30em) {
+    .grid__cell {
+        height: 30vh;
+    }
+}
+
+
+/*mladenovi dodatci*/
+
+.grid {
+  margin-top: -200px;
+}
+
+/*podigao tekt na drugoj stranici */
+.i {
+  margin-top: -30px;
+}
+
+.measure-wide {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+}
+
+.quote {
+  animation: shake 0.02s infinite cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-2.2px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2.2px, 0, 0);
+  }
+}
+
+
+
+.close {
+  animation: shake 0.02s infinite cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1.5px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1.5px, 0, 0);
+  }
+}
